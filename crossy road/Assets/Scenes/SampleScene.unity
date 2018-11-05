@@ -113,6 +113,32 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &68073154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1056517301222974, guid: cbd09d558a24e5147b54a17293957730,
+    type: 2}
+  m_PrefabInternal: {fileID: 1637835799}
+--- !u!114 &68073158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 68073154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b651b47d5108f4a977e0394b0b2de0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chick: {fileID: 0}
+  colliderDistCheck: 1
+  isDead: 0
+  isIdle: 1
+  isJumping: 0
+  isMoving: 0
+  jumpStart: 0
+  particle: {fileID: 0}
+  moveTime: 0.4
+  moveDistance: 1
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,3 +347,14 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1637835802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1637835800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a646f9f5a14c044dbb52ee0871d3b7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
